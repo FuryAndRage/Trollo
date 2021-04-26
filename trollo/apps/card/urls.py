@@ -1,7 +1,8 @@
 from django.urls import path
 from . import views
 
-app_name = 'core'
+app_name = 'card'
+
 urlpatterns = [
-    path('', views.index, name = 'base')
+    path('', views.index, name = 'index')
 ]

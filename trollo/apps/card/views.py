@@ -11,3 +11,6 @@ class CardCreateList(generics.ListCreateAPIView):
 class CardUpdateDelete(generics.RetrieveUpdateDestroyAPIView):
     queryset = Card.objects.all()
     serializer_class = CardSerializer
+
+def index(request):
+    return render(request, 'index.html')

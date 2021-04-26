@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('trollo.apps.core.urls')),
+    path('', include('trollo.apps.card.urls')),
 
     path('api/v1/cards/', include('trollo.apps.card.urls_api')),
     path('api/v1/tasks/', include('trollo.apps.task.urls_api')),
