@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
 
-    'trollo.apps.core',
+    
     'trollo.apps.card',
     'trollo.apps.task',
 ]
